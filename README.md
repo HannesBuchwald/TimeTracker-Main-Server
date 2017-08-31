@@ -1,12 +1,8 @@
 # TimeTracker Geo Main Server
 
 This is a Node.js app using Express 4.
+It has a Rest API to read, write or delete data to a web database.
 
 This App is hostes on heroku
-To Testr, Deploy and run for own purpuse please see gettting Startet instruction from heroku.
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+To test, deploy or run the app please gettting instruction from Heroku.
+https://devcenter.heroku.com/
