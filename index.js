@@ -28,14 +28,14 @@ app.set('view engine', 'ejs');
 //   next();
 //  });
 
- app.all('/api/status', function(request, response, next) {
+ app.all('/a5c8e07368efde43/status', function(request, response, next) {
    response.header("Access-Control-Allow-Origin", "*");
    response.header("Access-Control-Allow-Headers", "X-Requested-With");
    next();
   });
 
 //new routes
-app.use('/api', require('./routes/api'));
+app.use('/a5c8e07368efde43', require('./routes/a5c8e07368efde43'));
 
 
 
